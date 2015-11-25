@@ -1,0 +1,83 @@
+/*-------------------------------------------------------------------------------------------------*/
+/* Masonry
+/*-------------------------------------------------------------------------------------------------*/
+
+.centered { margin: 0 auto; }
+
+.box {
+  color:#ccc;
+  margin: 5px;
+  padding: 10px;
+  /*background-color:#121119;*/
+  font-size: 100%;
+  line-height: 1.4em;
+  float: left;
+
+}
+
+.col2 img:hover{
+    opacity:0.3;
+    transition: opacity 0.5s linear;
+}
+
+.box p {
+  font-size: .8em;
+  margin:10px;
+}
+
+.box h2 {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.box h3 {
+  margin-top: 8px;
+}
+
+.box img,
+#tumblelog img {
+  display: block;
+  width: 100%;
+}
+
+
+.box_comment {background: #fafafa; border-bottom: 1px solid #CCC; padding: 8px; soverflow: hidden;}
+.box_comment p {font-size: 11px; padding: 0px; margin:0}
+
+.rtl .box {
+  float: right;
+  text-align: right; 
+  direction: rtl;
+}
+
+.col1 {width: 80px}
+.col2 {width: 260px}
+.col3 {width: 280px}
+.col4 {width: 380px}
+.col5 {width: 480px}
+
+.col1 img { max-width: 80px; }
+.col2 img {   
+  opacity: 1;
+  max-width: 260px; 
+}
+.col3 img { max-width: 280px; }
+.col4 img { max-width: 380px; }
+.col5 img { max-width: 480px; }
+
+/* fluid masonry */
+
+.box_fluid {
+  margin-bottom: 1.4%;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  font-size: 100%;
+  line-height: 1.4em;
+  float: left;
+}
+
+.box_fluid_inner {padding: 0 15px 0}
+
+.col_fluid {width: 32%}
+.col_fluid img {width: 100%}

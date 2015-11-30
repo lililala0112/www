@@ -923,6 +923,9 @@ footer {
   padding: 10px 0; }
 
 /*------ index contact ------*/
+.unshown {
+  display: none; }
+
 .contact {
   padding: 25px 0;
   background: url("../images/contact_bg.png") no-repeat;

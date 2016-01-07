@@ -60,7 +60,8 @@ body {
   font-family: 'segoe ui', 'microsoft jhenghei', 'microsoft mhei', stheititc, sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 /*!
 Pure v0.6.0
@@ -1066,6 +1067,7 @@ footer {
       background-color: #ddd;
       transition-property: background-color, -webkit-transform;
       transition-property: background-color, transform;
+      transition-property: background-color, transform, -webkit-transform;
       transition-duration: 0.3s; }
     .burger-icon:before, .burger-icon:after {
       position: absolute;
@@ -1114,6 +1116,7 @@ footer {
       background-color: #fff;
       transition-property: background-color, -webkit-transform;
       transition-property: background-color, transform;
+      transition-property: background-color, transform, -webkit-transform;
       transition-duration: 0.3s; }
     .burger-icon:before, .burger-icon:after {
       position: absolute;
@@ -1149,6 +1152,7 @@ footer {
       background-color: #fff;
       transition-property: background-color, -webkit-transform;
       transition-property: background-color, transform;
+      transition-property: background-color, transform, -webkit-transform;
       transition-duration: 0.3s; }
     .burger-icon:before, .burger-icon:after {
       position: absolute;
